@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <header>
+        <h1>Formulário de Tarefa</h1>
+        <button type="button">Nova Tarefa +</button>
+    </header>
+
+    <form>
+        <h2>Inserir nova imagem e nova tarefa</h2>
+        <input type="text" id="nome-tarefa" placeholder="Nome da tarefa">
+        <input type="url" id="endereco-imagem-nova" placeholder="URL da imagem">
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="img/foto1.jpg" alt="foto1">
+            <div class="overlay-imagem-link">
+                <a href="./img/foto1.jpg" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+            <span class="nome-tarefa">Gato</span>
+            <span class="time-data">Adicionado em 00/00/0000 às 00:00</span>
+            <button type="button" class="botao-remover" id="botao-remover">Remover tarefa</button>
+        </li>
+        <li>
+            <img src="img/foto2.jpg" alt="foto2">
+            <div class="overlay-imagem-link">
+                <a href="./img/foto2.jpg" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+            <span class="nome-tarefa">Teste 1</span>
+            <span class="time-data">Adicionado em 00/00/0000 às 00:00</span>
+            <button type="button" class="botao-remover" id="botao-remover">Remover tarefa</button>
+        </li>
+        <li>
+            <img src="img/foto3.jpg" alt="foto3">
+            <div class="overlay-imagem-link">
+                <a href="./img/foto3.jpg" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+            <span class="nome-tarefa">Cachorro</span>
+            <span class="time-data">Adicionado em 00/00/0000 às 00:00</span>
+            <button type="button" class="botao-remover" id="botao-remover">Remover tarefa</button>
+        </li>
+        <li>
+            <img src="img/foto4.jpg" alt="foto4">
+            <div class="overlay-imagem-link">
+                <a href="./img/foto4.jpg" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+            <span class="nome-tarefa">Teste 2</span>
+            <span class="time-data">Adicionado em 00/00/0000 às 00:00</span>
+            <button type="button" class="botao-remover" id="botao-remover">Remover tarefa</button>
+        </li>
+        <li>
+            <img src="img/foto5.jpg" alt="foto5">
+            <div class="overlay-imagem-link">
+                <a href="./img/foto5.jpg" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+            <span class="nome-tarefa">Teste 3</span>
+            <span class="time-data">Adicionado em 00/00/0000 às 00:00</span>
+            <button type="button" class="botao-remover" id="botao-remover">Remover tarefa</button>
+        </li>
+    </ul>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
