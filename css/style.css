@@ -51,6 +51,7 @@ button {
 ul {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 123px;
 }
 
 ul li {
