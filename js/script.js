@@ -33,6 +33,7 @@ $(document).ready(function () {
            
         });
 
+        $('#nome-tarefa').val('');
         $('#endereco-imagem-nova').val('');
     });
 
